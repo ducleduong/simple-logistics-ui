@@ -1,9 +1,10 @@
-import React from 'react'
+import Layout from "@/components/Layout/Layout";
+import React from "react";
 
 export default function Home() {
   return (
-    <React.Fragment>
-      dasdfasd
-    </React.Fragment>
-  )
+    <Layout>
+        <div></div>
+    </Layout>
+  );
 }

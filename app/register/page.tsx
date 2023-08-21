@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import LoginForm from "@/components/LoginForm/LoginForm";
+import RegisterForm from "@/components/RegisterForm/RegisterForm";
 
-const Login: React.FC = () => {
+const Register: React.FC = () => {
   return (
     <div className="flex items-center justify-center h-screen">
       <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
@@ -158,7 +158,7 @@ const Login: React.FC = () => {
                 SimpleLogistics
               </h2>
 
-              <LoginForm />
+              <RegisterForm />
             </div>
           </div>
         </div>
@@ -167,4 +167,4 @@ const Login: React.FC = () => {
   );
 };
 
-export default Login;
+export default Register;
