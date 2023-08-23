@@ -8,3 +8,7 @@ export const getOrders = () => {
 export const deleteOrders = (orderId: number) => {
   return api.delete(`${ENDPOINT.ORDERS}/${orderId}`);
 };
+
+export const createOrder = (body: any) => {
+  return api.post(ENDPOINT.ORDERS, body);
+};

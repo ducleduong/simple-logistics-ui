@@ -1,6 +1,6 @@
 export const ENDPOINT = {
   ORDERS: "orders",
-  CUSTOMER: "customer",
+  CUSTOMER: "customers",
   ADDRESS: "address",
   LOGIN: "login",
   REGISTER: "register",
